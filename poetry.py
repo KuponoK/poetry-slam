@@ -22,3 +22,9 @@ def lines_printed_backwards(lines_list):
 def lines_printed_random(lines_list):
     for line in lines_list:
         print(choice(lines_list))
+
+# def custom
+for line in open('poem.txt'):
+    #prints every line that start with "If" and "Or"
+    if line.startswith('If') or line.startswith('Or'):
+       print(line)
