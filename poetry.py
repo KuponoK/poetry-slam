@@ -28,3 +28,6 @@ for line in open('poem.txt'):
     #prints every line that start with "If" and "Or"
     if line.startswith('If') or line.startswith('Or'):
        print(line)
+
+poem_lines = get_file_lines('poem.txt')
+lines_printed_backwards(poem_lines)
